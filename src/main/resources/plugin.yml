@@ -1,0 +1,14 @@
+name: FLHP
+version: 1.0
+main: com.example.disasterplugin.DisasterPlugin
+api-version: '1.21'
+commands:
+  game:
+    description: Start a countdown that triggers a disaster when it reaches zero
+    usage: /<command> start <seconds>
+    permission: disasterplugin.game
+    permission-message: You do not have permission to use this command.
+  벌금:
+    description: Pay the diamond fine for leaving away from your lodestone home
+    usage: /<command> 지불
+    aliases: [fine, flhp]
